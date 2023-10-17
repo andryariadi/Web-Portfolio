@@ -14,15 +14,17 @@ const Banner = () => {
         <div className="container mx-auto">
           <div className="header flex flex-col lg:flex-row lg:items-center">
             <div className="flex-1 text-center lg:text-start font-secondary mt-8 lg:mt-0">
-              <h1 className="text-[37px] lg:text-[75px] font-bold leading-[0.8] mb-5">
+              <motion.h1 variants={fadeIn("up", 0.3)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="text-[37px] lg:text-[75px] font-bold leading-[0.8] mb-5">
                 Hi! I'm <span className="text-gradient">Andry Ariadi</span>
-              </h1>
-              <div className="mb-6 text-[30px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
+              </motion.h1>
+              <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-6 text-[30px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
                 <span className="text-white mr-3">I am a</span>
                 <TypeAnimation sequence={["Software Engineering", 2000, "Frontend Developer", 2000]} speed={50} className="text-accent" wrapper="span" repeat={Infinity} />
-              </div>
-              <p className="mb-3">Welcome to My personal website</p>
-              <div className="flex justify-center lg:justify-start text-xl lg:text-3xl">
+              </motion.div>
+              <motion.p variants={fadeIn("up", 0.9)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-3">
+                Welcome to My personal website
+              </motion.p>
+              <motion.div variants={fadeIn("up", 1.1)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="flex justify-center lg:justify-start text-xl lg:text-3xl">
                 <div>
                   <a href="https://drive.google.com/file/d/1gzxxRYA1Zb6si9Z10HI36q4LjzIJhh6H/view?usp=drive_link" target="_blank">
                     <button className="btn btn-sm lg:btn-lg mr-5">Download CV</button>
@@ -39,11 +41,11 @@ const Banner = () => {
                     <PiInstagramLogoFill />
                   </a>
                 </div>
-              </div>
+              </motion.div>
             </div>
-            <div className="mx-auto lg:mx-0">
+            <motion.div variants={fadeIn("down", 0.5)} initial="hidden" whileInView={"show"} className="mx-auto lg:mx-0">
               <img src={Andry} alt="Andry" width={300} height={300} className="img-header brightness-75 contrast-90 hue-rotate-15 bg-gradient-to-r from-purple-700 to-sky-600" />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
