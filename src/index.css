@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-gradient {
+  background-image: linear-gradient(to right, #b936ee 50.63%, #3bace2 100%); /* Atur warna gradient */
+  -webkit-background-clip: text; /* Menerapkan efek gradient ke teks */
+  background-clip: text;
+  color: transparent; /* Membuat teks asli transparan */
+}
+
+.header {
+  margin-bottom: 250px;
+}
+
+.img-header {
+  /* padding: 0 70px 70px 70px; */
+  border-radius: 28% 72% 25% 75% / 60% 47% 53% 40%;
+}
+
 .btn {
-  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+  background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 500%, #406aff 117.04%);
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
@@ -48,6 +64,6 @@
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply py-0 lg:py-24 lg:h-screen flex items-center;
   }
 }
