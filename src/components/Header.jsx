@@ -5,7 +5,7 @@ import Andry from "../assets/andry-ariadi.png";
 const Header = () => {
   return (
     <>
-      <header className="py-8">
+      <header className="py-8 animate__animated animate__fadeInDown">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <a href="#">
