@@ -17,7 +17,7 @@ const Banner = () => {
               <motion.h1 variants={fadeIn("up", 0.3)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="text-[37px] lg:text-[75px] font-bold leading-[0.8] mb-5">
                 Hi! I'm <span className="text-gradient">Andry Ariadi</span>
               </motion.h1>
-              <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-6 text-[30px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
+              <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-6 text-[27px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
                 <span className="text-white mr-3">I am a</span>
                 <TypeAnimation sequence={["Software Engineering", 2000, "Frontend Developer", 2000]} speed={50} className="text-accent" wrapper="span" repeat={Infinity} />
               </motion.div>
@@ -43,7 +43,7 @@ const Banner = () => {
                 </div>
               </motion.div>
             </div>
-            <motion.div variants={fadeIn("down", 0.5)} initial="hidden" whileInView={"show"} className="mx-auto lg:mx-0">
+            <motion.div variants={fadeIn("down", 0.5)} initial="hidden" whileInView={"show"} className="mx-auto lg:mx-0 mt-5 lg:mt-0">
               <img src={Andry} alt="Andry" width={300} height={300} className="img-header brightness-75 contrast-90 hue-rotate-15 bg-gradient-to-r from-purple-700 to-sky-600" />
             </motion.div>
           </div>
