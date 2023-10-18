@@ -14,10 +14,10 @@ const Banner = () => {
         <div className="container mx-auto">
           <div className="header flex flex-col lg:flex-row lg:items-center">
             <div className="flex-1 text-center lg:text-start font-secondary mt-8 lg:mt-0">
-              <motion.h1 variants={fadeIn("up", 0.3)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="text-[37px] lg:text-[75px] font-bold leading-[0.8] mb-5">
+              <motion.h1 variants={fadeIn("up", 0.3)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="text-[35px] lg:text-[75px] font-bold leading-[0.8] mb-5">
                 Hi! I'm <span className="text-gradient">Andry Ariadi</span>
               </motion.h1>
-              <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-6 text-[27px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
+              <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-6 text-[25px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
                 <span className="text-white mr-3">I am a</span>
                 <TypeAnimation sequence={["Software Engineering", 2000, "Frontend Developer", 2000]} speed={50} className="text-accent" wrapper="span" repeat={Infinity} />
               </motion.div>

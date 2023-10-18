@@ -15,11 +15,11 @@ const About = () => {
     <>
       <sectin className="section" id="about" ref={ref}>
         <div className="container mx-auto">
-          <div className="about flex flex-col lg:flex-row">
-            <div className="">
+          <div className="about flex flex-col lg:flex-row gap-y-10 lg:gap-y-0">
+            <motion.div variants={fadeIn("right", 0.3)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.3 }}>
               <img className="img-about" src={Robot} alt="Robot" width={4000} height={4000} />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div variants={fadeIn("left", 0.55)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.3 }}>
               <h2 className="h2 text-accent font-semibold">About Me</h2>
               <p className="mb-5">
                 I graduated from the Bachelor of Science in Mechanical Engineering program at Malang State University. I am also a full-stack developer with a strong interest in working in IT. As per the position I have applied for, I
@@ -46,7 +46,7 @@ const About = () => {
                   My Certificate
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </sectin>

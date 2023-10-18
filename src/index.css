@@ -27,6 +27,12 @@
   column-gap: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+}
+
 .img-about {
   animation: UpDown 9000ms ease-in-out infinite;
 }
