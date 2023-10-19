@@ -49,6 +49,22 @@
   }
 }
 
+.img-work {
+  animation: UpDownOk 7s ease-in-out infinite;
+}
+
+@keyframes UpDownOk {
+  0% {
+    transform: translateY(3%);
+  }
+  50% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(3%);
+  }
+}
+
 .btn {
   background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 500%, #406aff 117.04%);
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);

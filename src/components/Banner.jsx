@@ -19,7 +19,7 @@ const Banner = () => {
               </motion.h1>
               <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-6 text-[25px] lg:text-[55px] font-secondary font-semibold uppercase leading-[1]">
                 <span className="text-white mr-3">I am a</span>
-                <TypeAnimation sequence={["Software Engineering", 2000, "Frontend Developer", 2000]} speed={50} className="text-accent" wrapper="span" repeat={Infinity} />
+                <TypeAnimation sequence={["Software Engineering", 2000, "Web Developer", 2000, "Frontend Developer", 2000]} speed={50} className="text-accent" wrapper="span" repeat={Infinity} />
               </motion.div>
               <motion.p variants={fadeIn("up", 0.9)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mb-3">
                 Welcome to My personal website
