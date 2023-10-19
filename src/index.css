@@ -14,11 +14,11 @@
   color: transparent; /* Membuat teks asli transparan */
 }
 
-.header {
+.banner {
   margin-bottom: 250px;
 }
 
-.img-header {
+.img-banner {
   /* padding: 0 70px 70px 70px; */
   border-radius: 28% 72% 25% 75% / 60% 47% 53% 40%;
 }

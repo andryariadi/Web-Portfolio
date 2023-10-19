@@ -12,7 +12,7 @@ const Banner = () => {
     <>
       <div className="section" id="home">
         <div className="container mx-auto">
-          <div className="header flex flex-col lg:flex-row lg:items-center">
+          <div className="banner flex flex-col lg:flex-row lg:items-center">
             <div className="flex-1 text-center lg:text-start font-secondary mt-8 lg:mt-0">
               <motion.h1 variants={fadeIn("up", 0.3)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="text-[35px] lg:text-[75px] font-bold leading-[0.8] mb-5">
                 Hi! I'm <span className="text-gradient">Andry Ariadi</span>
@@ -44,7 +44,7 @@ const Banner = () => {
               </motion.div>
             </div>
             <motion.div variants={fadeIn("down", 0.5)} initial="hidden" whileInView={"show"} className="mx-auto lg:mx-0 mt-5 lg:mt-0">
-              <img src={Andry} alt="Andry" width={300} height={300} className="img-header brightness-75 contrast-90 hue-rotate-15 bg-gradient-to-r from-purple-700 to-sky-600" />
+              <img src={Andry} alt="Andry" width={300} height={300} className="img-banner brightness-75 contrast-90 hue-rotate-15 bg-gradient-to-r from-purple-700 to-sky-600" />
             </motion.div>
           </div>
         </div>

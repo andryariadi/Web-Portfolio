@@ -36,7 +36,7 @@ const Contact = () => {
               <textarea className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all duration-500 mb-5" placeholder="Your Message" cols="30" rows="5"></textarea>
               <button className="btn btn-sm">Send Message</button>
             </motion.form> */}
-            <motion.div variants={fadeIn("left", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.3 }} className="work flex-1 flex flex-col gap-y-6 p-6 itmes-start">
+            <motion.div variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.3 }} className="work flex-1 flex flex-col gap-y-6 p-6 itmes-start">
               <img className="img-work" src={Work} alt="Work" />
             </motion.div>
           </div>
