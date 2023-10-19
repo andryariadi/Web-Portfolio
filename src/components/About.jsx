@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Robot from "../assets/robot.png";
+import { Link } from "react-scroll";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -41,7 +42,9 @@ const About = () => {
                 </div>
               </div>
               <div className="flex gap-x-5 items-center">
-                <button className="btn btn-sm ">Contact Me</button>
+                <Link activeClass="active" smooth={true} spy={true} to="contact">
+                  <button className="btn btn-sm ">Contact Me</button>
+                </Link>
                 <a href="https://drive.google.com/drive/folders/1y-uHnQ4t29SrZTrN3Wva_f09qUEouBnX?usp=share_link" target="_blank" className="text-gradient btn-link">
                   My Certificate
                 </a>
