@@ -32,7 +32,7 @@ const About = () => {
               </p>
               <div className="flex gap-x-6 lg:gap-x-10 mb-5">
                 <div>
-                  <div className="text-[40px] font-tertiary text-gradient mb-2">{inView ? <CountUp start={0} end={6} duration={3} /> : null}</div>
+                  <div className="text-[40px] font-tertiary text-gradient mb-2">{inView ? <CountUp start={0} end={13} duration={3} /> : null}</div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Software Engineering <br /> Certificate
                   </div>
