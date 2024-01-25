@@ -26,7 +26,7 @@ const Banner = () => {
               </motion.p>
               <motion.div variants={fadeIn("up", 1.1)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="flex justify-center lg:justify-start text-xl lg:text-3xl">
                 <div>
-                  <a href="https://drive.google.com/file/d/1CUjltn3u2Su4Ts_J364JqNpdDnSH_2XA/view?usp=sharing" target="_blank">
+                  <a href="https://drive.google.com/file/d/1qie5jD2uMspF9urSUtUDeDRJaxNG8yhW/view?usp=sharing" target="_blank">
                     <button className="btn btn-sm lg:btn-lg mr-5">Download CV</button>
                   </a>
                 </div>

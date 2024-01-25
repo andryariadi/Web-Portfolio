@@ -24,9 +24,9 @@ const About = () => {
               <h2 className="h2 text-accent font-semibold">About Me</h2>
               <p className="mb-5">
                 I graduated from the Bachelor of Science in Mechanical Engineering program at Malang State University. I am also a full-stack developer with a strong interest in working in IT. As per the position I have applied for,{" "}
-                <span className="text-accent font-medium">
-                  I possess the skills to web applications and mobile applications along with their respective tech stacks, such as React JS, Redux, Vue JS, Pinia, CSS, Bootstrap, Tailwind, Apollo Client, Node JS, Express JS, PostgreSQL,
-                  MongoDB, GraphQL and Redis.
+                <span className="text-accent font-bold">
+                  I possess the skills to web applications and mobile applications along with their respective tech stacks, such as React Js, Next Js, Next Auth, Clerk, Redux, CSS, Bootstrap, Tailwind, Apollo Client, Node JS, Express JS,
+                  PostgreSQL, MongoDB, GraphQL and Redis.
                 </span>{" "}
                 In the professional world, I am known for my discipline, attention to detail, ability to complete tasks on time, and readiness to work under pressure.
               </p>
